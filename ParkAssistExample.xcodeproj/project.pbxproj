@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000AD5B51C7CB2E6001E9E7E /* ParkAssist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000AD5B41C7CB2E6001E9E7E /* ParkAssist.framework */; };
+		00916C8C1C779A190043350A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916C8B1C779A190043350A /* main.m */; };
+		00916C8F1C779A190043350A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916C8E1C779A190043350A /* AppDelegate.m */; };
+		00916C951C779A190043350A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00916C931C779A190043350A /* Main.storyboard */; };
+		00916C971C779A190043350A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00916C961C779A190043350A /* Assets.xcassets */; };
+		00916C9A1C779A190043350A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00916C981C779A190043350A /* LaunchScreen.storyboard */; };
+		00916CA61C77B4C10043350A /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CA51C77B4C10043350A /* DashboardViewController.m */; };
+		00916CAB1C77BE6C0043350A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00916CAA1C77BE6C0043350A /* MobileCoreServices.framework */; };
+		00916CAD1C77BE750043350A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00916CAC1C77BE750043350A /* SystemConfiguration.framework */; };
+		00916CB11C77BEE20043350A /* DashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CB01C77BEE20043350A /* DashboardTableViewCell.m */; };
+		00916CB71C77BF300043350A /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CB61C77BF300043350A /* CircleProgressView.m */; };
+		00916CBB1C77BF880043350A /* UILabel+Bold.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CBA1C77BF880043350A /* UILabel+Bold.m */; };
+		00916CBE1C77C3BE0043350A /* CountsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CBD1C77C3BE0043350A /* CountsModel.m */; };
+		00916CC51C781B1D0043350A /* ParkingGarage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CC41C781B1D0043350A /* ParkingGarage.m */; };
+		00916CC81C7820BE0043350A /* ParkingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CC71C7820BE0043350A /* ParkingModel.m */; };
+		00916CCB1C7835AD0043350A /* ParkAssistPlateSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CCA1C7835AD0043350A /* ParkAssistPlateSearchViewController.m */; };
+		00916CCE1C78386C0043350A /* PlateResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CCD1C78386C0043350A /* PlateResultsTableViewCell.m */; };
+		00916CD11C7838A30043350A /* ParkingSpaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CD01C7838A30043350A /* ParkingSpaceModel.m */; };
+		00916CD41C7838E00043350A /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CD31C7838E00043350A /* LocationModel.m */; };
+		00916CD81C783FB00043350A /* ParkAssistEmptyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CD71C783FB00043350A /* ParkAssistEmptyDataSource.m */; };
+		00916CE11C798BF80043350A /* PAOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CE01C798BF80043350A /* PAOverlayViewController.m */; };
+		00916CE61C798EA00043350A /* ParkAssistVehicleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CE51C798EA00043350A /* ParkAssistVehicleDetailViewController.m */; };
+		00916CE91C7994A90043350A /* PANavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CE81C7994A90043350A /* PANavigator.m */; };
+		00916CEC1C7995390043350A /* PATransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CEB1C7995390043350A /* PATransitionDelegate.m */; };
+		00916CEF1C7996E10043350A /* PAPresenterAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CEE1C7996E10043350A /* PAPresenterAnimator.m */; };
+		00916CF21C79972B0043350A /* PADismissalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CF11C79972B0043350A /* PADismissalAnimator.m */; };
+		00916CF51C7997A80043350A /* UIViewController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CF41C7997A80043350A /* UIViewController+Utility.m */; };
+		00916CF81C7BC1AF0043350A /* UIStoryboard+ParkAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CF71C7BC1AF0043350A /* UIStoryboard+ParkAssist.m */; };
+		00916CFB1C7BC2850043350A /* ParkAssistVehicleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00916CFA1C7BC2850043350A /* ParkAssistVehicleLocationViewController.m */; };
+		00CBB2A21C7CAA0F00454458 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBB2A01C7CAA0F00454458 /* Fabric.framework */; };
+		00CBB2A31C7CAA0F00454458 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBB2A11C7CAA0F00454458 /* Crashlytics.framework */; };
+		00E87E501C7C089D00306157 /* GMDCircleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E87E4F1C7C089D00306157 /* GMDCircleLoader.m */; };
+		3DB85FFF107F2180E1396BCB /* libPods-ParkAssistExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE4FC4E6A7990BC61113C79 /* libPods-ParkAssistExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000AD5B41C7CB2E6001E9E7E /* ParkAssist.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParkAssist.framework; sourceTree = "<group>"; };
+		00916C871C779A190043350A /* ParkAssistExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkAssistExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00916C8B1C779A190043350A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00916C8D1C779A190043350A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00916C8E1C779A190043350A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00916C941C779A190043350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00916C961C779A190043350A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00916C991C779A190043350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00916C9B1C779A190043350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00916CA41C77B4C10043350A /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		00916CA51C77B4C10043350A /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		00916CAA1C77BE6C0043350A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		00916CAC1C77BE750043350A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00916CAF1C77BEE20043350A /* DashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewCell.h; sourceTree = "<group>"; };
+		00916CB01C77BEE20043350A /* DashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewCell.m; sourceTree = "<group>"; };
+		00916CB51C77BF300043350A /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		00916CB61C77BF300043350A /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		00916CB91C77BF880043350A /* UILabel+Bold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Bold.h"; sourceTree = "<group>"; };
+		00916CBA1C77BF880043350A /* UILabel+Bold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Bold.m"; sourceTree = "<group>"; };
+		00916CBC1C77C3BE0043350A /* CountsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountsModel.h; sourceTree = "<group>"; };
+		00916CBD1C77C3BE0043350A /* CountsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountsModel.m; sourceTree = "<group>"; };
+		00916CC31C781B1D0043350A /* ParkingGarage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingGarage.h; sourceTree = "<group>"; };
+		00916CC41C781B1D0043350A /* ParkingGarage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingGarage.m; sourceTree = "<group>"; };
+		00916CC61C7820BE0043350A /* ParkingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingModel.h; sourceTree = "<group>"; };
+		00916CC71C7820BE0043350A /* ParkingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingModel.m; sourceTree = "<group>"; };
+		00916CC91C7835AD0043350A /* ParkAssistPlateSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkAssistPlateSearchViewController.h; sourceTree = "<group>"; };
+		00916CCA1C7835AD0043350A /* ParkAssistPlateSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkAssistPlateSearchViewController.m; sourceTree = "<group>"; };
+		00916CCC1C78386C0043350A /* PlateResultsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateResultsTableViewCell.h; sourceTree = "<group>"; };
+		00916CCD1C78386C0043350A /* PlateResultsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlateResultsTableViewCell.m; sourceTree = "<group>"; };
+		00916CCF1C7838A30043350A /* ParkingSpaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingSpaceModel.h; sourceTree = "<group>"; };
+		00916CD01C7838A30043350A /* ParkingSpaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingSpaceModel.m; sourceTree = "<group>"; };
+		00916CD21C7838E00043350A /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		00916CD31C7838E00043350A /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		00916CD61C783FB00043350A /* ParkAssistEmptyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkAssistEmptyDataSource.h; sourceTree = "<group>"; };
+		00916CD71C783FB00043350A /* ParkAssistEmptyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkAssistEmptyDataSource.m; sourceTree = "<group>"; };
+		00916CDF1C798BF80043350A /* PAOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAOverlayViewController.h; sourceTree = "<group>"; };
+		00916CE01C798BF80043350A /* PAOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAOverlayViewController.m; sourceTree = "<group>"; };
+		00916CE41C798EA00043350A /* ParkAssistVehicleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkAssistVehicleDetailViewController.h; sourceTree = "<group>"; };
+		00916CE51C798EA00043350A /* ParkAssistVehicleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkAssistVehicleDetailViewController.m; sourceTree = "<group>"; };
+		00916CE71C7994A90043350A /* PANavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PANavigator.h; sourceTree = "<group>"; };
+		00916CE81C7994A90043350A /* PANavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PANavigator.m; sourceTree = "<group>"; };
+		00916CEA1C7995390043350A /* PATransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PATransitionDelegate.h; sourceTree = "<group>"; };
+		00916CEB1C7995390043350A /* PATransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PATransitionDelegate.m; sourceTree = "<group>"; };
+		00916CED1C7996E10043350A /* PAPresenterAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPresenterAnimator.h; sourceTree = "<group>"; };
+		00916CEE1C7996E10043350A /* PAPresenterAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPresenterAnimator.m; sourceTree = "<group>"; };
+		00916CF01C79972B0043350A /* PADismissalAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADismissalAnimator.h; sourceTree = "<group>"; };
+		00916CF11C79972B0043350A /* PADismissalAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADismissalAnimator.m; sourceTree = "<group>"; };
+		00916CF31C7997A80043350A /* UIViewController+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utility.h"; sourceTree = "<group>"; };
+		00916CF41C7997A80043350A /* UIViewController+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utility.m"; sourceTree = "<group>"; };
+		00916CF61C7BC1AF0043350A /* UIStoryboard+ParkAssist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+ParkAssist.h"; sourceTree = "<group>"; };
+		00916CF71C7BC1AF0043350A /* UIStoryboard+ParkAssist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+ParkAssist.m"; sourceTree = "<group>"; };
+		00916CF91C7BC2850043350A /* ParkAssistVehicleLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkAssistVehicleLocationViewController.h; sourceTree = "<group>"; };
+		00916CFA1C7BC2850043350A /* ParkAssistVehicleLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkAssistVehicleLocationViewController.m; sourceTree = "<group>"; };
+		00CBB2A01C7CAA0F00454458 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		00CBB2A11C7CAA0F00454458 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		00E87E4E1C7C089D00306157 /* GMDCircleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDCircleLoader.h; sourceTree = "<group>"; };
+		00E87E4F1C7C089D00306157 /* GMDCircleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDCircleLoader.m; sourceTree = "<group>"; };
+		6DE4FC4E6A7990BC61113C79 /* libPods-ParkAssistExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParkAssistExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EA730C26A83629DF3E9E49 /* Pods-ParkAssistExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkAssistExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkAssistExample/Pods-ParkAssistExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AC1BB351A577CB83670BE448 /* Pods-ParkAssistExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkAssistExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkAssistExample/Pods-ParkAssistExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00916C841C779A190043350A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00916CAD1C77BE750043350A /* SystemConfiguration.framework in Frameworks */,
+				00CBB2A21C7CAA0F00454458 /* Fabric.framework in Frameworks */,
+				00916CAB1C77BE6C0043350A /* MobileCoreServices.framework in Frameworks */,
+				000AD5B51C7CB2E6001E9E7E /* ParkAssist.framework in Frameworks */,
+				00CBB2A31C7CAA0F00454458 /* Crashlytics.framework in Frameworks */,
+				3DB85FFF107F2180E1396BCB /* libPods-ParkAssistExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00916C7E1C779A190043350A = {
+			isa = PBXGroup;
+			children = (
+				00916CA71C77BB070043350A /* Frameworks */,
+				00916C891C779A190043350A /* ParkAssistExample */,
+				00916C881C779A190043350A /* Products */,
+				0C7A9FE673D1E913404B956C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		00916C881C779A190043350A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00916C871C779A190043350A /* ParkAssistExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00916C891C779A190043350A /* ParkAssistExample */ = {
+			isa = PBXGroup;
+			children = (
+				00E87E4C1C7C088800306157 /* Vendor */,
+				00916CD51C783F9A0043350A /* EmptyDataSource */,
+				00916CB81C77BF7F0043350A /* Categories */,
+				00916CAE1C77BECE0043350A /* Cells */,
+				00916CA31C779CAB0043350A /* Model */,
+				00916CA21C779CA60043350A /* Views */,
+				00916CA11C779C980043350A /* Classes */,
+				00916C931C779A190043350A /* Main.storyboard */,
+				00916C961C779A190043350A /* Assets.xcassets */,
+				00916C981C779A190043350A /* LaunchScreen.storyboard */,
+				00916C9B1C779A190043350A /* Info.plist */,
+				00916C8A1C779A190043350A /* Supporting Files */,
+			);
+			path = ParkAssistExample;
+			sourceTree = "<group>";
+		};
+		00916C8A1C779A190043350A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00916C8B1C779A190043350A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00916CA11C779C980043350A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00916C8D1C779A190043350A /* AppDelegate.h */,
+				00916C8E1C779A190043350A /* AppDelegate.m */,
+				00916CA41C77B4C10043350A /* DashboardViewController.h */,
+				00916CA51C77B4C10043350A /* DashboardViewController.m */,
+				00916CC91C7835AD0043350A /* ParkAssistPlateSearchViewController.h */,
+				00916CCA1C7835AD0043350A /* ParkAssistPlateSearchViewController.m */,
+				00916CE41C798EA00043350A /* ParkAssistVehicleDetailViewController.h */,
+				00916CE51C798EA00043350A /* ParkAssistVehicleDetailViewController.m */,
+				00916CF91C7BC2850043350A /* ParkAssistVehicleLocationViewController.h */,
+				00916CFA1C7BC2850043350A /* ParkAssistVehicleLocationViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		00916CA21C779CA60043350A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00916CB51C77BF300043350A /* CircleProgressView.h */,
+				00916CB61C77BF300043350A /* CircleProgressView.m */,
+				00916CDF1C798BF80043350A /* PAOverlayViewController.h */,
+				00916CE01C798BF80043350A /* PAOverlayViewController.m */,
+				00916CE71C7994A90043350A /* PANavigator.h */,
+				00916CE81C7994A90043350A /* PANavigator.m */,
+				00916CEA1C7995390043350A /* PATransitionDelegate.h */,
+				00916CEB1C7995390043350A /* PATransitionDelegate.m */,
+				00916CED1C7996E10043350A /* PAPresenterAnimator.h */,
+				00916CEE1C7996E10043350A /* PAPresenterAnimator.m */,
+				00916CF01C79972B0043350A /* PADismissalAnimator.h */,
+				00916CF11C79972B0043350A /* PADismissalAnimator.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		00916CA31C779CAB0043350A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00916CBC1C77C3BE0043350A /* CountsModel.h */,
+				00916CBD1C77C3BE0043350A /* CountsModel.m */,
+				00916CC31C781B1D0043350A /* ParkingGarage.h */,
+				00916CC41C781B1D0043350A /* ParkingGarage.m */,
+				00916CC61C7820BE0043350A /* ParkingModel.h */,
+				00916CC71C7820BE0043350A /* ParkingModel.m */,
+				00916CCF1C7838A30043350A /* ParkingSpaceModel.h */,
+				00916CD01C7838A30043350A /* ParkingSpaceModel.m */,
+				00916CD21C7838E00043350A /* LocationModel.h */,
+				00916CD31C7838E00043350A /* LocationModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00916CA71C77BB070043350A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000AD5B41C7CB2E6001E9E7E /* ParkAssist.framework */,
+				00CBB2A01C7CAA0F00454458 /* Fabric.framework */,
+				00CBB2A11C7CAA0F00454458 /* Crashlytics.framework */,
+				00916CAC1C77BE750043350A /* SystemConfiguration.framework */,
+				00916CAA1C77BE6C0043350A /* MobileCoreServices.framework */,
+				6DE4FC4E6A7990BC61113C79 /* libPods-ParkAssistExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00916CAE1C77BECE0043350A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00916CAF1C77BEE20043350A /* DashboardTableViewCell.h */,
+				00916CB01C77BEE20043350A /* DashboardTableViewCell.m */,
+				00916CCC1C78386C0043350A /* PlateResultsTableViewCell.h */,
+				00916CCD1C78386C0043350A /* PlateResultsTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		00916CB81C77BF7F0043350A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				00916CB91C77BF880043350A /* UILabel+Bold.h */,
+				00916CBA1C77BF880043350A /* UILabel+Bold.m */,
+				00916CF31C7997A80043350A /* UIViewController+Utility.h */,
+				00916CF41C7997A80043350A /* UIViewController+Utility.m */,
+				00916CF61C7BC1AF0043350A /* UIStoryboard+ParkAssist.h */,
+				00916CF71C7BC1AF0043350A /* UIStoryboard+ParkAssist.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		00916CD51C783F9A0043350A /* EmptyDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				00916CD61C783FB00043350A /* ParkAssistEmptyDataSource.h */,
+				00916CD71C783FB00043350A /* ParkAssistEmptyDataSource.m */,
+			);
+			name = EmptyDataSource;
+			sourceTree = "<group>";
+		};
+		00E87E4C1C7C088800306157 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				00E87E4D1C7C089300306157 /* GMDCircleLoader */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		00E87E4D1C7C089300306157 /* GMDCircleLoader */ = {
+			isa = PBXGroup;
+			children = (
+				00E87E4E1C7C089D00306157 /* GMDCircleLoader.h */,
+				00E87E4F1C7C089D00306157 /* GMDCircleLoader.m */,
+			);
+			name = GMDCircleLoader;
+			sourceTree = "<group>";
+		};
+		0C7A9FE673D1E913404B956C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88EA730C26A83629DF3E9E49 /* Pods-ParkAssistExample.debug.xcconfig */,
+				AC1BB351A577CB83670BE448 /* Pods-ParkAssistExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00916C861C779A190043350A /* ParkAssistExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00916C9E1C779A190043350A /* Build configuration list for PBXNativeTarget "ParkAssistExample" */;
+			buildPhases = (
+				6CBA9A8E2E46BF6B9DA6FD79 /* Check Pods Manifest.lock */,
+				00916C831C779A190043350A /* Sources */,
+				00916C841C779A190043350A /* Frameworks */,
+				00916C851C779A190043350A /* Resources */,
+				533A6A4A8F9BEE79A828ED82 /* Copy Pods Resources */,
+				00CBB29F1C7CA9FA00454458 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkAssistExample;
+			productName = ParkAssistExample;
+			productReference = 00916C871C779A190043350A /* ParkAssistExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00916C7F1C779A190043350A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Phunware;
+				TargetAttributes = {
+					00916C861C779A190043350A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 00916C821C779A190043350A /* Build configuration list for PBXProject "ParkAssistExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00916C7E1C779A190043350A;
+			productRefGroup = 00916C881C779A190043350A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00916C861C779A190043350A /* ParkAssistExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00916C851C779A190043350A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00916C9A1C779A190043350A /* LaunchScreen.storyboard in Resources */,
+				00916C971C779A190043350A /* Assets.xcassets in Resources */,
+				00916C951C779A190043350A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00CBB29F1C7CA9FA00454458 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run b8127086af392cb1b73dc00a7387bb7a0856138f 47c407d9fb90f3350023f2dac10c37722a9caf3ae98396a16b0b41715177000a";
+		};
+		533A6A4A8F9BEE79A828ED82 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkAssistExample/Pods-ParkAssistExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBA9A8E2E46BF6B9DA6FD79 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00916C831C779A190043350A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00916C8F1C779A190043350A /* AppDelegate.m in Sources */,
+				00916CF81C7BC1AF0043350A /* UIStoryboard+ParkAssist.m in Sources */,
+				00916CD41C7838E00043350A /* LocationModel.m in Sources */,
+				00916CE91C7994A90043350A /* PANavigator.m in Sources */,
+				00916CFB1C7BC2850043350A /* ParkAssistVehicleLocationViewController.m in Sources */,
+				00E87E501C7C089D00306157 /* GMDCircleLoader.m in Sources */,
+				00916CCE1C78386C0043350A /* PlateResultsTableViewCell.m in Sources */,
+				00916CF51C7997A80043350A /* UIViewController+Utility.m in Sources */,
+				00916CD81C783FB00043350A /* ParkAssistEmptyDataSource.m in Sources */,
+				00916CBB1C77BF880043350A /* UILabel+Bold.m in Sources */,
+				00916CEC1C7995390043350A /* PATransitionDelegate.m in Sources */,
+				00916CA61C77B4C10043350A /* DashboardViewController.m in Sources */,
+				00916CC81C7820BE0043350A /* ParkingModel.m in Sources */,
+				00916CEF1C7996E10043350A /* PAPresenterAnimator.m in Sources */,
+				00916CC51C781B1D0043350A /* ParkingGarage.m in Sources */,
+				00916CB11C77BEE20043350A /* DashboardTableViewCell.m in Sources */,
+				00916CE61C798EA00043350A /* ParkAssistVehicleDetailViewController.m in Sources */,
+				00916CF21C79972B0043350A /* PADismissalAnimator.m in Sources */,
+				00916CCB1C7835AD0043350A /* ParkAssistPlateSearchViewController.m in Sources */,
+				00916CBE1C77C3BE0043350A /* CountsModel.m in Sources */,
+				00916C8C1C779A190043350A /* main.m in Sources */,
+				00916CB71C77BF300043350A /* CircleProgressView.m in Sources */,
+				00916CE11C798BF80043350A /* PAOverlayViewController.m in Sources */,
+				00916CD11C7838A30043350A /* ParkingSpaceModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00916C931C779A190043350A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00916C941C779A190043350A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00916C981C779A190043350A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00916C991C779A190043350A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00916C9C1C779A190043350A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00916C9D1C779A190043350A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00916C9F1C779A190043350A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88EA730C26A83629DF3E9E49 /* Pods-ParkAssistExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ParkAssistExample",
+				);
+				INFOPLIST_FILE = ParkAssistExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.ParkAssistExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00916CA01C779A190043350A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1BB351A577CB83670BE448 /* Pods-ParkAssistExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ParkAssistExample",
+				);
+				INFOPLIST_FILE = ParkAssistExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.ParkAssistExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00916C821C779A190043350A /* Build configuration list for PBXProject "ParkAssistExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00916C9C1C779A190043350A /* Debug */,
+				00916C9D1C779A190043350A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00916C9E1C779A190043350A /* Build configuration list for PBXNativeTarget "ParkAssistExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00916C9F1C779A190043350A /* Debug */,
+				00916CA01C779A190043350A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00916C7F1C779A190043350A /* Project object */;
+}
